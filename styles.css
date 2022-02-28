@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(77, 75, 75);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.btn {
+  background-color: rgb(83, 236, 78);
+  border-radius: 5px;
+  padding: 10px;
+  border-style: none;
+  font-family: italic;
+}
+.p-styling {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 350px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-styling {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+  border: none;
+  border: 1px solid transparent;
+}
+.edit_part {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.label {
+  font-size: medium;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
